@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    password: secret
+    username: myuser
+
+server:
+  port: 8084

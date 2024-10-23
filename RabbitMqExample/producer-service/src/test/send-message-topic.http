@@ -1,0 +1,5 @@
+### Sending message to topic exchange, should be consumed by both consumers based on a routing key match
+POST http://localhost:8084/sendToTopic?message=NewMessage1&routing_key=io
+
+### Sending message to topic exchange, should be consumed by only one consumers based on a routing key match
+POST http://localhost:8084/sendToTopic?message=NewMessage2&routing_key=something

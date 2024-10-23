@@ -1,0 +1,2 @@
+### Sending message to fanout exchange, should be consumed by two consumers
+POST http://localhost:8084/sendToFanout?message=NewMessage1
